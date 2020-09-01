@@ -16,7 +16,7 @@ resources:
   - container: mlops
     image: mcr.microsoft.com/mlops/python:latest
   pipelines:
-  - pipeline: Model CI
+  - pipeline: BuildPipeline
     source: Model-Train-Register-CI
     trigger:
       branches:
