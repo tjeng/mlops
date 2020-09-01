@@ -17,7 +17,7 @@ resources:
     image: mcr.microsoft.com/mlops/python:latest
   pipelines:
   - pipeline: model-train-ci
-    source: Model CI Pipeline # Name of the triggering pipeline
+    source: Model CI Pipeline
     trigger:
       branches:
         include:
