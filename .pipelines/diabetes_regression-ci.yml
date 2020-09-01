@@ -25,10 +25,10 @@ pool:
   vmImage: ubuntu-latest
 
 stages:
-- stage: 'Model_CI'
-  displayName: 'Model CI'
+- stage: 'Model-Train-Register-CI'
+  displayName: 'Model-Train-Register-CI'
   jobs:
-  - job: "Model_CI_Pipeline"
+  - job: "Model-Train-Register-CI"
     displayName: "Model-Train-Register-CI"
     container: mlops
     timeoutInMinutes: 0
