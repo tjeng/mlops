@@ -29,7 +29,7 @@ stages:
   displayName: 'Model CI'
   jobs:
   - job: "Model_CI_Pipeline"
-    displayName: "Model CI Pipeline"
+    displayName: "Model-Train-Register-CI"
     container: mlops
     timeoutInMinutes: 0
     steps:
